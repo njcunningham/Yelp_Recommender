@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_5cc230c5b311476cbd3b491b3dbf3835 {
+                position : relative;
+                width : 80.0%;
+                height: 80.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_5cc230c5b311476cbd3b491b3dbf3835" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_5cc230c5b311476cbd3b491b3dbf3835 = L.map(
+                                  'map_5cc230c5b311476cbd3b491b3dbf3835',
+                                  {center: [36.1107901,-115.17141129999999],
+                                  zoom: 11,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            L.control.scale().addTo(map_5cc230c5b311476cbd3b491b3dbf3835);
+        
+    
+            var tile_layer_9c15b07fcb3b45dab35bfaf4a1111d0b = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 15,
+  "minZoom": 11,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_5cc230c5b311476cbd3b491b3dbf3835);
+        
+    
+
+            var marker_5968aaa4de2d4814b65b4231f836a5e9 = L.marker(
+                [36.1107901,-115.17141129999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_5cc230c5b311476cbd3b491b3dbf3835);
+            
+    
+            var popup_11dddfee4d99406d8673eaf3705fe975 = L.popup({maxWidth: '300'});
+
+            
+                var html_f5245e49f77440c3b718a3501d8cb152 = $('<div id="html_f5245e49f77440c3b718a3501d8cb152" style="width: 100.0%; height: 100.0%;">"Pampas Churrascaria Brazilian Grille"</div>')[0];
+                popup_11dddfee4d99406d8673eaf3705fe975.setContent(html_f5245e49f77440c3b718a3501d8cb152);
+            
+
+            marker_5968aaa4de2d4814b65b4231f836a5e9.bindPopup(popup_11dddfee4d99406d8673eaf3705fe975);
+
+            
+        
+    
+
+            var marker_1ee4f4ebfd174292ae39a3464b9f2ca8 = L.marker(
+                [36.08652539999999,-115.22624909999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_5cc230c5b311476cbd3b491b3dbf3835);
+            
+    
+            var popup_c72f40c335964eaca656172ea55b8d96 = L.popup({maxWidth: '300'});
+
+            
+                var html_96fa7f705825436fb4c972323982bf36 = $('<div id="html_96fa7f705825436fb4c972323982bf36" style="width: 100.0%; height: 100.0%;">"Mr Mamas"</div>')[0];
+                popup_c72f40c335964eaca656172ea55b8d96.setContent(html_96fa7f705825436fb4c972323982bf36);
+            
+
+            marker_1ee4f4ebfd174292ae39a3464b9f2ca8.bindPopup(popup_c72f40c335964eaca656172ea55b8d96);
+
+            
+        
+    
+
+            var marker_c1e604c32c494dbbb73ed6df1b945a87 = L.marker(
+                [36.117734999999996,-115.171714],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_5cc230c5b311476cbd3b491b3dbf3835);
+            
+    
+            var popup_6ca7067dd0244e249655166353591404 = L.popup({maxWidth: '300'});
+
+            
+                var html_f541fe1c156a4e08aa2197ef17b56b8e = $('<div id="html_f541fe1c156a4e08aa2197ef17b56b8e" style="width: 100.0%; height: 100.0%;">"Chayo Mexican Kitchen + Tequila Bar"</div>')[0];
+                popup_6ca7067dd0244e249655166353591404.setContent(html_f541fe1c156a4e08aa2197ef17b56b8e);
+            
+
+            marker_c1e604c32c494dbbb73ed6df1b945a87.bindPopup(popup_6ca7067dd0244e249655166353591404);
+
+            
+        
+</script>
